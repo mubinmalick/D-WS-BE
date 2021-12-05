@@ -11,7 +11,7 @@ app.use(cors());
 //Database
 //DB connection
 mongoose.connect(
-  "mongodb://localhost:27017/dynamicWebScraperDB",
+  "mongodb+srv://mubinmalick123:malick123@cluster0.svpcu.mongodb.net/dynamicWebScraperDB?authSource=admin&replicaSet=atlas-3jo66t-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
