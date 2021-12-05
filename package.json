@@ -1,0 +1,48 @@
+{
+  "name": "dynamic-webscraper-backend",
+  "version": "1.0.0",
+  "description": "backend for the smart/dynamic webscraper that scrapes the webpages though the url link of the webpage and filters out the data dynamicaly via different parameters",
+  "main": "server.js",
+  "scripts": {
+    "Start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "backend",
+    "backend-nodejs",
+    "node",
+    "nodejs",
+    "js",
+    "dynamic",
+    "dyamicwebscraper",
+    "dynamic-webscraper",
+    "dynamic-web-scraper",
+    "smartwebscraper",
+    "smart-web-scraper",
+    "smart-scraper",
+    "dynamic-scraper",
+    "express",
+    "expressjs",
+    "mongo",
+    "mongodb",
+    "mongoose",
+    "mongocompass",
+    "mongo-compass"
+  ],
+  "author": "PabloSolutions",
+  "license": "ISC",
+  "bugs": {
+  },
+  "homepage": "",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.14",
+    "nodemon": "^2.0.15"
+  }
+}
