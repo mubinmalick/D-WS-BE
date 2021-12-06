@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
+const path = require('path')
 
 const app = express();
 app.use(express.json());
@@ -33,7 +34,8 @@ const User = new mongoose.model("User", userSchema);
 /////////////////////////////////////////////////////////////////////////////////
 // Routes
 app.get("/", (req, res) => {
-  res.send("My Scraper Api");
+  //res.send("My Scraper Api");
+  res.sendFile(path.join(__dirname, 'views/index.html'))
 });
 
 app.post("/login", (req, res) => {
@@ -84,9 +86,6 @@ app.post("/register", (req, res) => {
   });
 });
 
-app.post("/scrape", (req,res)=>{
-  
-})
 
 /////////////////////////////////////////////////////////////////////////////////
 app.listen(9002, () => {
